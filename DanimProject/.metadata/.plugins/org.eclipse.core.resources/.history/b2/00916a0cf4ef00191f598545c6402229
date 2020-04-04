@@ -1,0 +1,7 @@
+package com.kh.danim.user.model.service;
+
+import com.kh.danim.user.model.vo.User;
+
+public interface UserService {
+	User insertUser(User user);
+}

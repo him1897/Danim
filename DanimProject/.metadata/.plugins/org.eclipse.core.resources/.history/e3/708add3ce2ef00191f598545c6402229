@@ -1,0 +1,5 @@
+package com.kh.danim.user.model.service;
+
+public class UserService {
+
+}

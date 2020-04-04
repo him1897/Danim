@@ -1,0 +1,8 @@
+package com.kh.danim.user.model.service;
+
+import com.kh.danim.user.model.dao.UserDao;
+
+public class UserServiceImpl implements UserService{
+	
+	private UserDao userDao;
+}

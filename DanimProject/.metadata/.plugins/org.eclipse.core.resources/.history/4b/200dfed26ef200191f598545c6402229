@@ -1,0 +1,26 @@
+package com.kh.danim.notice.model.vo;
+
+import java.sql.Date;
+
+public class Notice implements java.io.Serializable{
+	
+	private static final long serialVersionUID = 110L;
+	
+	private int noticeno;
+	private String noticetitle;
+	private Date noticedate;
+	private String noticecontent;
+	
+	public Notice() {}
+	
+	public Notice(int noticeno, String noticetitle, Date noticedate, String noticecontent) {
+		super();
+		this.noticeno = noticeno;
+		this.noticetitle = noticetitle;
+		this.noticedate = noticedate;
+		this.noticecontent = noticecontent;
+	}
+	
+	
+	
+}

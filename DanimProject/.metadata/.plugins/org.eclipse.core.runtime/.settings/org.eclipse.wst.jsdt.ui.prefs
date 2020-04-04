@@ -1,0 +1,17 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=31c4f4aca19fd2ef8be090f0bb5f48c1df0d630a
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jface.textfont=1|Menlo|12.0|0|COCOA|1|;
+org.eclipse.wst.jsdt.internal.ui.navigator.layout=1
+org.eclipse.wst.jsdt.ui.editor.tab.width=
+org.eclipse.wst.jsdt.ui.formatterprofiles.version=11
+org.eclipse.wst.jsdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+semanticHighlighting.localVariableDeclaration.bold=false
+semanticHighlighting.methodDeclarationName.color=223,190,149
+semanticHighlighting.methodDeclarationName.enabled=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

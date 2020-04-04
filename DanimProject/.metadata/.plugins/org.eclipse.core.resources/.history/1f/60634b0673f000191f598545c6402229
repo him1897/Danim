@@ -1,0 +1,61 @@
+package com.kh.danim.user.controller;
+
+import javax.servlet.http.HttpSession;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.kh.danim.user.model.service.UserService;
+import com.kh.danim.user.model.vo.User;
+
+@Controller
+public class UserController {
+	
+	private static final Logger logger = LoggerFactory.getLogger(UserController.class);
+	
+	private UserService userService;
+	
+	@RequestMapping("enrollForm.do")
+	public String enrollFormMethod() {
+		logger.info("회원가입 페이지 접속..");
+		return "enroll";
+	}
+	
+	@RequestMapping("loginForm.do")
+	public String loginFormMethod() {
+		logger.info("로그인 페이지 접속..");
+		return "login";
+	}
+	
+	@RequestMapping("noticeForm.do")
+	public String noticeFormMethod() {
+		logger.info("공지사항 페이지 접속..");
+		return "notice/Notice";
+	}
+	
+	@RequestMapping("contactForm.do")
+	public String contactFormMethod() {
+		logger.info("문의하기 페이지 접속..");
+		return "contact";
+	}
+	
+	@RequestMapping(value="login.do", method=RequestMethod.POST)
+	public String loginMethod(User user, HttpSession session) {
+		logger.info("로그인 시도..");
+		logger.info(user.getUserid() + ", " + user.getUserpwd());
+		
+		User loginUser = userService.loginCheck(user);
+		
+		String link = "login_choice";
+		
+		if(loginUser != null)
+			session.setAttribute("loginUser", loginUser);
+		else 
+			link = "common/error";
+		
+		return link;
+	}
+}

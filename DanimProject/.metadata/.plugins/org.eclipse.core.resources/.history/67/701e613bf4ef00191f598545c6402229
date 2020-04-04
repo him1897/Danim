@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="userMapper">
+
+	<resultMap id="resultUser" type="User">
+	
+		<id property="userid" column="userid" />
+		<result property="username" column="username" />
+		<result property="userpwd" column="userpwd" />
+		<result property="usernum" column="usernum" />
+		<result property="phone" column="phone" />
+		<result property="ground" column="ground" />
+		<result property="enrollcheck" column="enrollcheck" />
+		<result property="danim" column="danim" />
+		<result property="danimcount" column="danimcount" />
+		<result property="block" column="block" />
+		<result property="black" column="black" />
+		<result property="money" column="money" />
+		<result property="account" column="account" />
+ 		<result property="accountname" column="accountname" />
+		<result property="enrolldate" column="enrolldate" />
+		<result property="review" column="review" />	
+	</resultMap>
+	
+	<!-- <select id="loginCheck" parameterType="Member" resultMap="resultMember">
+		select * from member where userid = #{userid} and userpwd = #{userpwd}
+	</select>
+	
+	<insert id="insertMember" parameterType="Member" useGeneratedKeys="true">
+		insert into member values(#{userid}, #{userpwd}, #{username}, #{gender}, #{age}, #{phone}, #{email}, #{hobby}, #{etc}, default, sysdate)
+	</insert>
+	
+	<select id="selectMember" parameterType="string" resultType="Member">
+		select * from member where userid = #{userid}
+	</select>
+	
+	<update id="updateMember" parameterType="Member">
+		update member set userpwd = #{userpwd}, gender = #{gender}, age=#{age}, phone=#{phone}, email=#{email}, hobby=#{hobby}, etc=#{etc} where userid = #{userid}
+	</update>
+	
+	<delete id="deleteMember" parameterType="string">
+		delete from member where userid = #{userid}
+	</delete>
+	
+	<select id="memberAll" resultMap="resultMember">
+		select * from member
+	</select> -->
+</mapper>

@@ -1,0 +1,7 @@
+package com.kh.danim.notice.model.service;
+
+public interface NoticeService {
+
+	int getListCount();
+
+}

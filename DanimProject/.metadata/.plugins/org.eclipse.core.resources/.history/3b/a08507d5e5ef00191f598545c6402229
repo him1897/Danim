@@ -1,0 +1,6 @@
+package com.kh.danim.user.model.dao;
+
+@Repository("userDao")
+public class UserDao {
+
+}

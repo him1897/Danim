@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="oracle" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="student"/>
+			<item value="first"/>
+			<item value="oracle"/>
+			<item value="index.do"/>
+			<item value="login.do"/>
+			<item value="loginMember"/>
+			<item value="danim"/>
+			<item value="/Sector"/>
+			<item value="path"/>
+			<item value="member"/>
+			<item value="Member"/>
+			<item value="&lt;/h3&gt;"/>
+			<item value="/h3&gt;"/>
+			<item value="/H3&gt;"/>
+			<item value="[^\u0009\u000A\u000D\u0020-\uD7FF\uE000-\uFFFD\u10000-\u10FFF]+&#x0A;[출처] [JSP] CDATA 섹션에서 부적합한 XML 문자(유니코드: )가 발견되었습니다.|작성자 Fuck SI"/>
+		</list>
+		<list key="replacehistory">
+			<item value="userChange.do"/>
+			<item value="loginForm.do"/>
+			<item value="loginUser"/>
+			<item value="/Danim"/>
+			<item value="/danim"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="294" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="408" key="DIALOG_HEIGHT"/>
+		<item value="900" key="DIALOG_X_ORIGIN"/>
+		<item value="114" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

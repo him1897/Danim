@@ -1,0 +1,25 @@
+package com.kh.danim.user.model.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.kh.danim.user.model.dao.UserDao;
+import com.kh.danim.user.model.vo.User;
+
+@Service
+public class UserServiceImpl implements UserService{
+	
+	@Autowired
+	private UserDao userDao;
+
+	@Override
+	public User insertUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User loginCheck(User user) {
+		return userDao.loginCheck(user);
+	}
+}

@@ -1,0 +1,5 @@
+package com.kh.danim.notice.model.vo;
+
+public class Notice {
+
+}

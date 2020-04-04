@@ -1,0 +1,15 @@
+package com.kh.danim.user.model.service;
+
+import com.kh.danim.user.model.dao.UserDao;
+import com.kh.danim.user.model.vo.User;
+
+public class UserServiceImpl implements UserService{
+	
+	private UserDao userDao;
+
+	@Override
+	public User insertUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
